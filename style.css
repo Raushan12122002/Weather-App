@@ -1,0 +1,170 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body{
+background-color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+border: none;
+outline: none;
+}
+
+.container{
+width: 400px;
+height: min-content;
+background-color: #fff;
+padding: 30px;
+border-radius: 12px;
+box-shadow:  4px 4px  10px 1px red;
+}
+
+.search-box{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.search-box input{
+border: none;
+background-color:#e6f5fb;
+padding: 10px;
+border-radius: 5px;
+font-size: 1.3rem;
+outline: none;
+text-transform: capitalize;
+font: bold;
+}
+
+.search-box ::placeholder{
+
+    color: #000;
+}
+
+.search-box button{
+font-size: 1.5rem;
+    border: none;
+    outline: none;
+   border-radius: 50px; 
+   background-color: #e6f5fb;
+   padding: 5px;
+}
+
+.search-box button:hover{
+font-size: 1.5rem;
+    border: none;
+    outline: none;
+   border-radius: 50px; 
+   background-color:black;
+   padding: 5px;
+   color: #fff;
+}
+
+.weather-body img{
+width: 50%;
+
+}
+
+.weather-body{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+margin-block: 20px;
+flex-direction: column;
+gap: 20px;
+
+}
+
+
+
+.wheather-box p {
+font-size: 2rem;
+font: bold;
+
+}
+
+.temperature{
+margin-left: 35px;
+font: 700;
+font: bolder;
+}
+
+.description{
+    font: 900;
+}
+
+.wheather-details{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+.wheather-details i{
+font-size: 2rem;
+
+}
+
+.wheather-details i, span, p{
+    font-size: 1.5rem;
+    font: bold;
+    font-weight: 900;
+}
+
+
+.humidity{
+    display: flex;
+    gap: 10px;
+}
+
+.humidity p,span{
+    font-size: 1.5rem;
+    font: bold;
+    font-weight: 900;
+}
+
+
+
+
+
+
+.wind{
+
+    display: flex;
+    gap: 10px;
+}
+
+.wind p,span{
+font-size: 1.5rem;
+font: bold;
+font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

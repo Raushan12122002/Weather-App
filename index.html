@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" class="inpute-box" placeholder="Enter your location"></input>
+                <button><i class="fa-solid fa-magnifying-glass" id="searchbtn"></i></button>
+            </div>
+            <div class="weather-body">
+                <img src="67-679074_sun-png-transparent.png" alt="Wheather image" class="wheather-img" srcset="">
+                <div class="wheather-img">
+                    <p class="temperature">0°C</p>
+                    <p class="descriiption">Light Rain</p>
+                </div>
+            </div>
+            <div class="wheather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">45</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">12km/h</span>
+                        <p>Wind</p>
+                        <p id="deg">deg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/9c07c68eca.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
